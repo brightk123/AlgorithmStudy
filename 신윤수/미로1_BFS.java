@@ -41,8 +41,8 @@ public class 미로1_BFS {
 				}				
 			}
 			
-			boolean reacheable = bfs(sr, sc);
-			System.out.println("#" + tc + " " + (reacheable ? 1 : 0));
+			boolean reachable = bfs(sr, sc);
+			System.out.println("#" + tc + " " + (reachable ? 1 : 0));
 		}
 	}
 
