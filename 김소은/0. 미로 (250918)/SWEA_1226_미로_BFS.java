@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class SWEA_1126_bfs {
+public class SWEA_1226_미로_BFS {
 	
 	// 상하좌우 탐색
 	static int[] dx = {-1, 1, 0, 0};
@@ -78,3 +78,4 @@ public class SWEA_1126_bfs {
 		}
 	}
 }
+
