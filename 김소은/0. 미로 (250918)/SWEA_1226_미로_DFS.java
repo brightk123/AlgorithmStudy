@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA_1126_dfs {
+public class SWEA_1226_미로_DFS {
 	
 	// 상하좌우 탐색
 	static int[] dx = {-1, 1, 0, 0};
