@@ -22,7 +22,7 @@ public class Main {
 
         // 조합 생성
         for (int mask = 0; mask < (1 << cSize); mask++) {
-            if (Integer.bitCount(mask) == M) { // M개만 선택
+            if (Integer(mask) == M) { // M개만 선택
                 int idx = 0;
                 for (int i = 0; i < cSize; i++) {
                     if ((mask & (1 << i)) != 0) comb[idx++] = i;
